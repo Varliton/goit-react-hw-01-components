@@ -1,7 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StatisticsBlock = styled.section`
-margin-bottom: ${props => props.theme.space[4]}px;`
+  margin-bottom: ${props => props.theme.space[4]}px;
+`;
 
 export const StatisticTitle = styled.h3`
   font-size: ${props => props.theme.normal}px;
@@ -42,6 +43,6 @@ export const StatisticText = styled.p`
 
 export const StatisticCounter = styled.span`
   font-size: ${props => props.theme.space[8]};
-  
+
   color: ${props => props.theme.colors.accent};
 `;

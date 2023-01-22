@@ -1,10 +1,9 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const FriendsItem = styled.li`
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
-  
-  
+
   align-items: center;
   padding: 10px 30px 10px 10px;
   overflow: hidden;
@@ -16,7 +15,6 @@ export const FriendsItem = styled.li`
     box-shadow: ${props => props.theme.shadows.small};
   }
 `;
-
 
 export const Name = styled.h3`
   color: ${props => props.theme.colors.gray};
@@ -30,5 +28,4 @@ export const Name = styled.h3`
 export const Status = styled.span`
   display: flex;
   align-items: center;
-  
 `;
